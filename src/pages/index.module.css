@@ -1,14 +1,12 @@
-.intro { 
-}
 
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 171.8vh;
+  height: auto;
   font-size: 20px;
   overflow: hidden;
-  padding: 0 80px;
+  padding: 80px;
 
 }

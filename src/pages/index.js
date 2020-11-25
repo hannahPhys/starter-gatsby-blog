@@ -19,7 +19,7 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className={styles.wrapper}>
-            <div className={styles.intro}>It’s no coincidence that the part of the marijuana plant we smoke is the female part.
+            <div >It’s no coincidence that the part of the marijuana plant we smoke is the female part.
             <br /> <br />
             Think about it: plant medicine and herbal healing were long considered the tools of our tupuna wahine, and female spirituality and political activism go hand-in-hand more often than not.
             <br /> <br />
