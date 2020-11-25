@@ -19,13 +19,17 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className={styles.wrapper}>
-            <div >It’s no coincidence that the part of the marijuana plant we smoke is the female part.
+            <div >
+              <h1> Kia ora e hoa mā </h1>
+              It’s no coincidence that the part of the marijuana plant we smoke is the female part.
             <br /> <br />
             Think about it: plant medicine and herbal healing were long considered the tools of our tupuna wahine, and female spirituality and political activism go hand-in-hand more often than not.
             <br /> <br />
             Māori refer to women as te whare tangata (the house of humanity), recognising the vital roles women play in providing life and nurturing future generations. Women are respected for their ability to create life, so they are treated with the same consideration as Papatūānuku, the creator of all life.
             <br /> <br />
-            This brand is about reconnecting us as wahine toa to Aotearoa, to listen to our bodies and to the land, to embrace sustainability as a service to our native land after so much harm has been done to her body, to educate ourselves about cannabis and how we can puff puff pass it in a healthy, beneficial way that is in tune with our waiwhero and growing this practice and marijuana within our iwi and communities
+            One of the biggest problems we face today is we’re lonely; we don’t have that connection to home, and to each other. This brand is about acknowledging and re-remembering the tapu connection between Whanau, Manaakitanga, Wairua, Tinana, and Whenua.
+            <br /> <br />
+            We need to reconnect ourselves as wahine toa to Aotearoa, to listen to our bodies and to the land, to embrace sustainability as a service to our native land after so much harm has been done to her body, to educate ourselves about cannabis and how we can puff puff pass it in a healthy, beneficial way that is in tune with our waiwhero and growing this practice and marijuana within our iwi and communities
             </div>
           </div>
           <div className="wrapper">

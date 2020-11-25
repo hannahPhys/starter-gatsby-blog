@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import styles from './blog.module.css'
+import book from '../assets/book.jpg'
+
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
 
@@ -15,9 +17,20 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location}>
         <div style={{ background: '#fff' }}>
           <Helmet title={siteTitle} />
-          <div className={styles.hero}>Blog</div>
+          <div className={styles.blog}>
+            <img
+              className={styles.blogImage}
+              src={book}
+              alt="Hero"
+            />
+            <div className={styles.blogDetails}>
+              <h1 className={styles.blogHeadline}>Read More</h1>
+            </div>
+            <div className={styles.blogSubDetails}>
+              <h3 className={styles.blogHeadline}>Panui Atu</h3>
+            </div>
 
-          
+          </div>
           <div className="wrapper">
             <h2 className="section-headline">Recent articles</h2>
             <ul className="article-list">

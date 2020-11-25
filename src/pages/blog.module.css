@@ -8,3 +8,62 @@
   font-size: 2em;
   overflow: hidden;
 }
+
+.blog {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-top:-100px;
+  z-index:500;
+}
+
+.blogImage {
+  /*
+    Ensure golden ratio for the blog size while limiting it to some extend to
+    the viewport width
+  */
+  max-height: 594px;
+}
+
+.blogDetails {
+  position: absolute; 
+  left: 50%;
+  top: 23%;
+  font-family: auto;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+.blogSubDetails { 
+  position: absolute; 
+  left: 50%;
+  top: 44%;
+  font-family: auto;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+.blogSubDetails .blogHeadline{
+  font-size: 50px;
+}
+
+@media(min-width: 470px) {
+  .blogHeadline {
+     font-size: 88px;
+  }
+}
+
+@media(min-width: 1000px) {
+  .blogHeadline {
+    font-size: 99px;
+  }
+}
+
+.blogHeadline {
+  margin: 0; 
+
+}
+
+.blogTitle {
+  margin: 0;
+  font-weight: bold;
+}
