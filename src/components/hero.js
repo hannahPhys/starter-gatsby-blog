@@ -1,5 +1,5 @@
 import React from 'react'
-import sex from './sex.jpg'
+import sex from '../assets/sex.jpg'
 import styles from './hero.module.css'
 
 export default () => (
