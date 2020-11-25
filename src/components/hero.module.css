@@ -15,33 +15,33 @@
 }
 
 .heroDetails {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  position: absolute; 
   left: 50%;
-  bottom: 0;
+  top: 12%;
+  font-family: auto;
   transform: translate(-50%, 0);
-  font-size: 14px;
-  padding: 0 0.5em;
+  width: 100%;
 }
 
 @media(min-width: 600px) {
-  .heroDetails {
-    font-size: 16px;
+  .heroHeadline {
+     font-size: 99px;
   }
 }
 
 @media(min-width: 1000px) {
-  .heroDetails {
-    font-size: 20px;
+  .heroHeadline {
+    
+    font-size: 32px;
   }
 }
 
 .heroHeadline {
-  margin: 0;
+  margin: 0; 
+
 }
 
 .heroTitle {
   margin: 0;
-  font-size: 1.125em;
   font-weight: bold;
 }
