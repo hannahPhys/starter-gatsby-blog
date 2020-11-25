@@ -8,7 +8,7 @@ export default () => (
       src={sex}
     />
     <div className={styles.heroDetails}>
-      <h3 className={styles.heroHeadline}>Wahine Weed</h3>
+      <h3 className={styles.heroHeadline}>Weed Wāhine</h3>
     </div>
   </div>
 )
