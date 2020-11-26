@@ -6,11 +6,7 @@
   z-index:500;
 }
 
-.heroImage {
-  /*
-    Ensure golden ratio for the hero size while limiting it to some extend to
-    the viewport width
-  */
+.heroImage { 
   height: 61.8vh;
   max-height: 400px;
 }
@@ -18,7 +14,7 @@
 .heroDetails {
   position: absolute; 
   left: 50%;
-  top: 12%;
+  top: 20%;
   font-family: auto;
   transform: translate(-50%, 0);
   width: 100%;

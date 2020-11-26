@@ -1,7 +1,11 @@
 .previewTitle {
   font-size: 1.5em;
+  margin-bottom: 8px;
 }
 
+.wrapper {
+  height: 230px;/** remember to do mobile **/
+}
 .tag {
   color: #A0A0A0;
   text-decoration: none;
