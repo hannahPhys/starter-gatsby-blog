@@ -10,3 +10,15 @@
   padding: 5% 15%;
   font-family: sans-serif;
 }
+
+h1 {
+  font-size: 30px;
+}
+
+
+@media(min-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+  
+}

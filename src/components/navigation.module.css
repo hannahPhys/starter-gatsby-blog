@@ -9,6 +9,12 @@
   margin-bottom: -200px;
  }  
   
+@media(max-width: 768px) {
+  .navigation {  
+   opacity: 0; 
+   }  
+}
+
  
   .navigation li {  
       list-style: none;  
@@ -52,11 +58,7 @@
       opacity: 1;
 
   }  
- 
-  .navigation li:hover {      
-
-}  
- 
+  
   .navigation ul li:hover ul li a:hover {  
     text-decoration: underline;  
   }  
