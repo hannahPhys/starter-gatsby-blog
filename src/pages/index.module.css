@@ -7,12 +7,21 @@
   height: auto;
   font-size: 20px;
   overflow: hidden;
-  padding: 5% 15%;
+  padding: 5% 10%;
   font-family: sans-serif;
 }
 
+@media(min-width: 470px) {
+  .wrapper {
+    padding: 5% 15%;
+  }
+}
+
+
 h1 {
   font-size: 30px;
+  color: plum;
+  margin-top:0px;
 }
 
 
