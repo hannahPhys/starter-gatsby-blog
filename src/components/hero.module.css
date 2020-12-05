@@ -14,15 +14,25 @@
 .heroDetails {
   position: absolute; 
   left: 50%;
-  top: 20%;
+  top: 14%;
   font-family: auto;
   transform: translate(-50%, 0);
   width: 100%;
 }
 
 @media(min-width: 470px) {
+  .heroDetails {
+    top: 20%;
+  }
+}
+.heroHeadline {
+  margin: 0; 
+  font-size: 47px;
+}
+
+@media(min-width: 470px) {
   .heroHeadline {
-     font-size: 88px;
+     font-size: 77px;
   }
 }
 
@@ -32,10 +42,7 @@
   }
 }
 
-.heroHeadline {
-  margin: 0; 
 
-}
 
 .heroTitle {
   margin: 0;
