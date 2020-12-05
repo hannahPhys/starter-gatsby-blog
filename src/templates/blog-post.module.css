@@ -2,9 +2,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 12.5em;
   background: #e1e1e1;
-  margin: -1em -2.5em 1em;
-  font-size: 2em
+  margin: -1em -2.5em 0.5em;
+  font-size: 2em;
+  overflow: hidden;
+
+}
+
+.heroImage {
+  filter: blur(2.5px);
+  margin: -5px -10px -10px -5px;
+}
+
+
+.wrapper {
+  width: calc(70% - 10vmin);
+  margin: 0 auto;
+}
+
+.blogImageWrapper {
+  margin:0 auto;
+}
+
+
+@media(min-width: 470px) {
+  .blogImageWrapper {
+    width: 30vw;
+    float: right;
+    margin: 5px;
+  }
+}
+
+@media(min-width: 1000px) {
+  .blogImageWrapper {
+    width: 25vw;
+  }
+}
+
+h1 {
+  text-align: center;
 }
