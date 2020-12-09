@@ -1,32 +1,28 @@
 
 .wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  height: auto;
   font-size: 20px;
   overflow: hidden;
-  padding: 5% 10%;
   font-family: sans-serif;
 }
 
 @media(min-width: 470px) {
   .wrapper {
-    padding: 5% 15%;
-  }
+    margin: 0 auto;
+    width: calc(100% - 10vmin);  }
 }
 
 
-h1 {
+h2 {
   font-size: 30px;
   color: plum;
-  margin-top:0px;
+  margin-top:2vh;
 }
 
 
 @media(min-width: 1000px) {
-  h1 {
+  h2 {
     font-size: 40px;
   }
 }

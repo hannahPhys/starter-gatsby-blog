@@ -20,7 +20,7 @@ class RootIndex extends React.Component {
           <Hero data={author.node} />
           <div className={styles.wrapper}>
             <div >
-              <h1> Kia ora e hoa mā </h1>
+              <h2> Kia ora e hoa mā </h2>
               It’s no coincidence that the part of the marijuana plant we smoke is the female part.
             <br /> <br />
             Think about it: plant medicine and herbal healing were long considered the tools of our tupuna wahine, and female spirituality and political activism go hand-in-hand more often than not.
@@ -33,7 +33,7 @@ class RootIndex extends React.Component {
             </div>
           </div>
           <div className="wrapper">
-            <h2 className="section-headline">New Posts</h2>
+            <h3 className="section-headline">New Posts</h3>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
