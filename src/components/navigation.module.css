@@ -11,17 +11,14 @@
   
 @media(max-width: 768px) {
   .navigation {  
-   opacity: 0
+   opacity: 0; 
    }  
 }
 
-.navBg {
-  background: pink
-}
-
+ 
   .navigation li {  
-      list-style: none; 
-      position: relative;
+      list-style: none;  
+      position: relative;  
       margin: 30px 0;
       z-index: 1000;
       width:104px;
@@ -33,7 +30,7 @@
       .navigation li li {  
           list-style: none;  
           position: relative;  
-          left: 54px;  
+          left: 104px;  
           margin:0;
       }  
  
@@ -51,7 +48,6 @@
       position: absolute;  
       visibility: hidden;  
       opacity: 0;
-      margin-left:50px;
       transition: visibility 0s, opacity 0.2s linear;
       top: 0;  
       list-style-image: url('../assets/point.png');
