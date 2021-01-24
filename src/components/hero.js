@@ -1,5 +1,5 @@
 import React from 'react'
-import sex from '../assets/sex.jpg'
+import bg from '../assets/bg.png'
 import styles from './hero.module.css'
 
 export default () => (
@@ -7,12 +7,14 @@ export default () => (
     <div className={styles.heroWrapper}>
       <img
         className={styles.heroImage}
-        src={sex}
+        src={bg}
         alt="Hero"
       ></img>
+      <span className={styles.greenCross1}></span>
     </div>
     <div className={styles.heroDetails}>
-      <h3 className={styles.heroHeadline}>Weed Wāhine</h3>
+      <h3 className={styles.heroHeader}>Weed Wāhine</h3>
+      <p className={styles.heroSubheader}> Cannabis education from Aotearoa </p>
     </div>
   </div>
 )

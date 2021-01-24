@@ -69,3 +69,5 @@ public
 .netlify
 .env.development
 .env.production
+package-lock.json
+package-lock.json
