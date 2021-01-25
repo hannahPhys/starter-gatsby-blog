@@ -30,7 +30,7 @@
   margin-top: 40px;
 }
 
-@media(max-width: 780px) {
+@media(max-width: 1000px) {
   .weedImageWrapper {
    display: none;
   }
@@ -39,7 +39,6 @@
 h2 {
   font-size: 48px;
   color:#22783e;
-  margin-top:11vh;
   font-family: 'BebasNeue';
   letter-spacing: 4px;
   border-bottom: #ff9f97 12px solid;
