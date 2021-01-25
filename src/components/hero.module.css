@@ -69,7 +69,7 @@
   overflow: hidden;
 }
 .greenCross1:after {
-  content: ' \002B';
+  /**content: ' \002B';
   color: blue;
-  font-size: 40px;
+  font-size: 40px;**/
 }

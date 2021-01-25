@@ -1,12 +1,9 @@
 {
-  "name": "contentful-starter-gatsby-blog",
-  "description": "Contentful Gatsby Starter Blog",
+  "name": "weed-wahine",
+  "description": "Womens weed education website based in Aotearoa",
   "private": true,
   "version": "0.0.1",
-  "author": "Contentful <opensource@contentful.com>",
-  "bugs": {
-    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
-  },
+  "author": "Hannah Auckram via Contentful",
   "dependencies": {
     "gatsby": "^2.27.3",
     "gatsby-image": "^2.6.0",
@@ -28,7 +25,7 @@
     "contentful-import": "^7.9.22",
     "netlify-cli": "^2.69.0"
   },
-  "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
+  "homepage": "weedwahine.nz",
   "keywords": [
     "gatsby",
     "contentful",

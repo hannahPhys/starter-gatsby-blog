@@ -13,22 +13,26 @@
   font-weight: bold;
   width: calc(100% - 10vmin);  
   margin: 0 auto;
-
+  margin-top: -30px;
 } 
 @media(min-width: 1000px) {
   .textWrapper {
     margin: 0 auto;
     width: calc(50% - 10vmin);  
+    margin-top:-40px;
+    text-align: left; 
+
   }
 }
 .weedImageWrapper {
   width: 659px;
   float: right;
+  margin-top: 40px;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 780px) {
   .weedImageWrapper {
-    width: 100vw; 
+   display: none;
   }
 }
 
@@ -48,7 +52,7 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 48px;
   color:#22783e; 
   font-family: 'BebasNeue';
   letter-spacing: 2px; 
@@ -70,8 +74,9 @@ h3 {
   margin: 0 0 5vmin 0;
   border-bottom: 1px solid #ddd;
 }
+
 @media(max-width: 1000px) {
   .sectionheadline {
-    font-size: 28px;
+    font-size: 48px;
   }
 }
