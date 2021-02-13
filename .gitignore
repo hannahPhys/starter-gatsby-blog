@@ -71,3 +71,5 @@ public
 .env.production
 package-lock.json
 package-lock.json
+.DS_Store
+src/.DS_Store
