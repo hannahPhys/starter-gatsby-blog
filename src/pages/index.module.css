@@ -1,29 +1,31 @@
 @font-face {
-  font-family: 'BebasNeue'; 
+  font-family: 'BebasNeue';
   src: url('../assets/BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
-  url('../assets/BebasNeue-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
-} 
+  url('../assets/BebasNeue-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
 .textWrapper {
   display: flex;
-  text-align: center; 
+  text-align: center;
   font-size: 19px;
   overflow: hidden;
   font-family: sans-serif;
-  color:#22783e;
+  color: #22783e;
   font-weight: bold;
-  width: calc(100% - 10vmin);  
+  width: calc(100% - 10vmin);
   margin: 0 auto;
   margin-top: -30px;
-} 
+}
+
 @media(min-width: 1000px) {
   .textWrapper {
     margin: 0 auto;
-    width: calc(50% - 10vmin);  
-    margin-top:-40px;
-    text-align: left; 
-
+    width: calc(50% - 10vmin);
+    text-align: left;
   }
 }
+
 .weedImageWrapper {
   width: 659px;
   float: right;
@@ -32,13 +34,13 @@
 
 @media(max-width: 1000px) {
   .weedImageWrapper {
-   display: none;
+    display: none;
   }
 }
 
 h2 {
   font-size: 48px;
-  color:#22783e;
+  color: #22783e;
   font-family: 'BebasNeue';
   letter-spacing: 4px;
   border-bottom: #ff9f97 12px solid;
@@ -52,9 +54,15 @@ h2 {
 
 h3 {
   font-size: 48px;
-  color:#22783e; 
+  color: #22783e;
   font-family: 'BebasNeue';
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
+}
+
+h3 a {
+  color: #22783e;
+  padding-top: 5px;
+  text-decoration: underline;
 }
 
 @media(max-width: 1000px) {
@@ -65,10 +73,10 @@ h3 {
 
 .sectionheadline {
   font-size: 38px;
-  color:#22783e;
-  margin-top:11vh;
+  color: #22783e;
+  margin-top: 11vh;
   font-family: 'BebasNeue';
-  letter-spacing: 4px;  
+  letter-spacing: 4px;
   padding: 0 0 0.4em 0;
   margin: 0 0 5vmin 0;
   border-bottom: 1px solid #ddd;
