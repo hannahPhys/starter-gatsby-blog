@@ -5,7 +5,7 @@ import get from 'lodash/get'
 import Layout from '../components/layout'
 import book from '../assets/cannabis-banner.jpg'
 import Img from 'gatsby-image'
-import styles from './blog-post.module.css'
+import styles from './blog-post.module.scss'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -33,7 +33,7 @@ class BlogPostTemplate extends React.Component {
                 fluid={post.heroImage.fluid}
               />
             </div>
-            
+
             <p style={{ display: 'block', }} >
               {post.publishDate}
             </p>

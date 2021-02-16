@@ -30,17 +30,17 @@
 }
 
 .blogSubDetails { 
-  position: absolute; 
-  left: 50%;
-  top: 44%;
   font-family: auto;
+  left: 50%;
+  position: absolute; 
+  top: 44%;
   transform: translate(-50%, 0);
   width: 100%;
 }
 h1 {
-  font-size: 48px;
   color:#22783e;
   font-family: 'BebasNeue';
+  font-size: 48px;
   letter-spacing: 4px;
 }
 
@@ -50,9 +50,9 @@ h1 {
   }
 }
 h3 {
-  font-size: 48px;
   color:#22783e; 
   font-family: 'BebasNeue';
+  font-size: 48px;
   letter-spacing: 2px; 
 }
 

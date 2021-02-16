@@ -1,11 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import get from 'lodash/get'
-import styles from './index.module.css'
 import { Helmet } from 'react-helmet'
+import get from 'lodash/get'
+
+import styles from './index.module.scss'
+
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
+
 import weedImage from '../assets/weedImage.png'
 
 class RootIndex extends React.Component {

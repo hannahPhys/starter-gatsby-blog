@@ -1,11 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
-import styles from './blog.module.css'
-import book from '../assets/book.jpg'
+import get from 'lodash/get'
+
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
+
+import styles from './blog.module.scss'
+
+import book from '../assets/bookbg.png'
+
+
 
 class BlogIndex extends React.Component {
   render() {
