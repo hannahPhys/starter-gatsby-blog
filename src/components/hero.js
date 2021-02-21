@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from '../assets/bg.png'
-import styles from './hero.module.css'
+import styles from './hero.module.scss'
 
 export default () => (
   <div className={styles.hero}>

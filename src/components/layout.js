@@ -1,15 +1,16 @@
 import React from 'react'
-import './base.css'
+import './base.scss'
 import Container from './container'
-import Navigation from './navigation'
+import Nav from './navigation'
 
 class Template extends React.Component {
+
   render() {
     const { children } = this.props
 
     return (
       <Container>
-        <Navigation />
+        <Nav />
         {children}
       </Container>
     )

@@ -1,0 +1,92 @@
+@import '../components/primary.scss';
+
+.textWrapper {
+  color: $fernGreen;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: calc(100% - 10vmin);
+}
+
+.weedImageWrapper {
+  float: right;
+  margin-top: 40px;
+  width: 659px;
+}
+
+h2 {
+  border-bottom: $vividTangerine 12px solid;
+  color: $fernGreen;
+  font-family: 'BebasNeue';
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+h3 {
+  color: #22783e;
+  font-family: 'BebasNeue';
+  font-size: 48px;
+  letter-spacing: 2px;
+
+  a {
+    color: #22783e;
+    padding-top: 5px;
+    text-decoration: underline;
+  }
+}
+
+.sectionHeadline {
+  border-bottom: #ff9f97 12px solid;
+  color: $fernGreen;
+  font-family: 'BebasNeue';
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-top: 11vh;
+  margin: 0 0 5vmin 0;
+  padding: 0 0 0.4em 0;
+}
+
+//extra large desktop
+@media(min-width: 1200px) {
+  .textWrapper {
+    margin: 40px auto 70px;
+    padding: 2%;
+    text-align: left;
+    width: calc(50% - 10vmin);
+  }
+
+  h2 {
+    font-size: 58px;
+  }
+}
+
+//super small phones
+@media(max-width: 380px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+//normal desktop width
+@media(max-width: 1200px) {
+  .textWrapper {
+    text-align: left;
+  }
+
+  .weedImageWrapper {
+    display: none;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .sectionheadline {
+    font-size: 48px;
+  }
+}

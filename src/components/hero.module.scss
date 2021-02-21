@@ -1,0 +1,79 @@
+@import "./primary.scss";
+
+.hero {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  z-index: 500;
+}
+
+.heroDetails {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  transform: translate(-50%, 0);
+  font-family: 'BebasNeue';
+  text-align: end;
+  line-height: normal;
+  font-weight: bold;
+  color: $fernGreen;
+}
+
+@media(min-width: 1000px) {
+  .heroDetails {
+    left: 70%;
+    top: 27%;
+    transform: translate(-50%, 0);
+    width: 455px;
+  }
+}
+
+.heroSubheader {
+  color: white;
+  background-color: $vividTangerine;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: sans-serif;
+  width: fit-content;
+  padding: 9px 33px;
+}
+
+@media(max-width: 500px) {
+  .heroSubheader {
+    display: none;
+  }
+}
+
+@media(max-width: 1000px) {
+  .heroSubheader {
+    padding: 9px 20px;
+  }
+}
+
+.heroHeader {
+  margin: 0;
+  font-size: 105PX;
+  letter-spacing: 6px;
+}
+
+
+
+@media(max-width: 1000px) {
+  .heroHeader {
+    font-size: 58px;
+  }
+
+  .heroSubheader {
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 380px) {
+  .heroDetails {
+    left: 67%
+  }
+}
+
+.heroWrapper {
+  overflow: hidden;
+}

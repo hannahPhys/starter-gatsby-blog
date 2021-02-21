@@ -1,0 +1,27 @@
+.previewTitle {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.wrapper {
+  height: 400px;
+}
+
+@media(max-width: 400px) {
+  .wrapper {
+    height: 300px;
+  }
+
+}
+
+.tag {
+  border-radius: 2px;
+  border: 1px solid #A0A0A0;
+  color: #A0A0A0;
+  display: inline-block;
+  line-height: 1;
+  margin-right: .5em;
+  padding: .33333rem .5rem;
+  text-decoration: none;
+}
