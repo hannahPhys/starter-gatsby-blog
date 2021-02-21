@@ -1,11 +1,11 @@
 {
   "name": "Weed Wahine",
-  "description": "Gatsby starter for a Contentful project.",
+  "description": "Chill community dedicated to weed, wellness and wahine toa",
   "keywords": [
-    "contentful",
-    "gatsby",
-    "static",
-    "ssg"
+    "weed",
+    "nz",
+    "wellness",
+    "wahine"
   ],
   "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
   "success_url": "/",

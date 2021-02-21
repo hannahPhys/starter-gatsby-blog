@@ -19,6 +19,19 @@ h1 {
   margin: 0 auto;
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.hero {
+  img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 .blogImageWrapper {
   margin: 0 auto;
 }

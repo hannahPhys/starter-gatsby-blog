@@ -12,8 +12,8 @@ export default () => (
         <Link className={styles.navigationLink} to="/blog/">Learn</Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link className={styles.navigationLink} to="/blog/">Shop</Link>
-      </li>
+        <Link className={styles.navigationLink} to="/shop/">Shop</Link>
+      </li> 
     </ul>
   </nav >
 )
