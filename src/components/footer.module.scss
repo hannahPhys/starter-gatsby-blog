@@ -6,48 +6,48 @@
   background-color: $vividTangerine;
   bottom: 0;
   left: 0;
-  width: 100%;
   color: white;
-}
+  overflow-x: hidden;
 
-h4 {
-  font-size: 40px;
-  font-family: 'BebasNeue';
-  margin: 5px;
+  h4 {
+    font-size: 40px;
+    font-family: 'BebasNeue';
+    margin: 5px;
 
-}
+  }
 
-p {
-  font-family: 'MonsterratLight';
-  margin: 5px;
+  p {
+    font-family: 'MonsterratLight';
+    margin: 5px;
 
-}
+  }
 
-.column {
-  display: block;
-  float: left;
-  width: 50%;
+  .column {
+    display: block;
+    float: left;
+    width: 50%;
 
-}
+  }
 
-.nav {
-  display: block;
-  width: 50%;
-  padding: 2% 14% 5% 0;
+  .nav {
+    display: block;
+    width: 50%;
+    padding: 2% 14% 5% 0;
 
-  ul {
-    list-style: none;
-    float: right;
+    ul {
+      list-style: none;
+      float: right;
 
-    li {
-      padding: 5px;
+      li {
+        padding: 5px;
 
-      a {
-        text-decoration: none;
-      }
+        a {
+          text-decoration: none;
+        }
 
-      a:hover {
-        text-decoration: underline;
+        a:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
