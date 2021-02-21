@@ -1,17 +1,4 @@
-$fernGreen : #35793e;
-$vividTangerine: #f39d96;
-$paleSpringBud: #f5f3bb;
-$tanCrayola: dfa06e;
-$popstar: #c35767;
-
-
-@font-face {
-  font-display: swap;
-  font-family: "Avenir";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/avenir-400.woff2") format("woff2");
-}
+@import './primary.scss';
 
 body {
   background: #eee;
@@ -27,7 +14,9 @@ img {
   width: 100%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 2em;
   font-weight: normal;
 }
@@ -40,6 +29,7 @@ a {
   width: calc(100% - 10vmin);
   margin: 0 auto;
   padding: 5vmin 0;
+  overflow-x: hidden;
 }
 
 /**
@@ -49,7 +39,7 @@ a {
 .article-list {
   display: grid;
   grid-gap: 5vmin;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   list-style: none;
   margin: 0;
   padding: 0;

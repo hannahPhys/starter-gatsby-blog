@@ -5,8 +5,14 @@
 }
 
 .wrapper {
-  height: 230px;
-  /** remember to do mobile **/
+  height: 400px;
+}
+
+@media(max-width: 400px) {
+  .wrapper {
+    height: 300px;
+  }
+
 }
 
 .tag {

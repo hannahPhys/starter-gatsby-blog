@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import styles from '../pages/blog.module.scss'
-import book from '../assets/book.jpg'
+import book from '../assets/bookbg.png'
 import Layout from './layout'
 import ArticlePreview from './article-preview'
 

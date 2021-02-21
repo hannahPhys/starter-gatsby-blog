@@ -1,7 +1,7 @@
 import React from 'react'
 import './base.scss'
 import Container from './container'
-import Sidebar from './sidebar'
+import Nav from './navigation'
 
 class Template extends React.Component {
 
@@ -10,7 +10,7 @@ class Template extends React.Component {
 
     return (
       <Container>
-        <Sidebar />
+        <Nav />
         {children}
       </Container>
     )

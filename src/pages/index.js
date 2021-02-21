@@ -42,7 +42,7 @@ class RootIndex extends React.Component {
           </div>
 
           <div className="wrapper">
-            <h3 className="section-headline">New Posts</h3>
+            <h3 className={styles.sectionHeadline}>New Posts</h3>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (

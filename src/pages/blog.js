@@ -8,7 +8,7 @@ import ArticlePreview from '../components/article-preview'
 
 import styles from './blog.module.scss'
 
-import book from '../assets/bookbg.png'
+import book from '../assets/bookbackg.png'
 
 
 
@@ -36,7 +36,7 @@ class BlogIndex extends React.Component {
 
           </div>
           <div className="wrapper">
-            <h2 className="section-headline">Recent articles</h2>
+            <h2 className={styles.sectionHeadline}>Recent articles</h2>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
