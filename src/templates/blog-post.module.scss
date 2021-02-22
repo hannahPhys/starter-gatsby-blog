@@ -1,3 +1,5 @@
+@import '../components/primary.scss';
+
 .blogPost {
   padding-bottom: 40px;
 
@@ -5,14 +7,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e1e1e1;
-    margin: 0 -2.5em 0.5em;
+    background: #e1e1e1; 
     font-size: 2em;
     overflow: hidden;
+
+    img {
+      width: 140%;
+      margin: 0;
+      max-width: unset;
+    }
   }
 
   h1 {
     line-height: 49px;
+    font-family: 'BebasNeue';
+    color: $fernGreen;
+    text-align: center;
+    font-size: 60px;
   }
 
   .wrapper {
@@ -26,12 +37,7 @@
     margin: 10px auto;
   }
 
-  .hero {
-    img {
-      width: 100%;
-      margin: 0;
-    }
-  }
+
 
   .blogImageWrapper {
     margin: 0 auto;
@@ -50,10 +56,6 @@
     .blogImageWrapper {
       width: 25vw;
     }
-  }
-
-  h1 {
-    text-align: center;
   }
 
 }
