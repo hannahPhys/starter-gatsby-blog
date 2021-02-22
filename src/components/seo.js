@@ -35,7 +35,15 @@ const SEO = ({ title, description }) => {
 			{/* OpenGraph tags */}
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={metaDescription} />
-
+			<script async src='https://www.googletagmanager.com/gtag/js?id=G-M2D5JZ09KT'></script>
+			<script>
+				{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-M2D5JZ09KT');
+        `}
+			</script>
 		</Helmet>
 	)
 }

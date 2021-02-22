@@ -8,7 +8,7 @@ import styles from './index.module.scss'
 import Hero from '../components/hero'
 import Layout from '../components/layout'
 import ArticlePreview from '../components/article-preview'
-
+import SEO from '../components/seo'
 import weedImage from '../assets/weedImage.png'
 
 class RootIndex extends React.Component {
@@ -20,7 +20,7 @@ class RootIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div style={{ background: '#fff' }}>
-          <Helmet title={siteTitle} />
+          <SEO title={siteTitle} description='Weed Wahine New Zealand is a community dedicated to weed, wellness and women' />
           <Hero data={author.node} />
           <div className={styles.weedImageWrapper}>
             <img
