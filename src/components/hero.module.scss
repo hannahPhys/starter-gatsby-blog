@@ -10,7 +10,7 @@
 .heroDetails {
   position: absolute;
   left: 70%;
-  top: 10%;
+  top: 14%;
   transform: translate(-50%, 0);
   font-family: 'BebasNeue';
   text-align: end;
@@ -24,7 +24,7 @@
     left: 70%;
     top: 27%;
     transform: translate(-50%, 0);
-    width: 455px;
+    width: 410px;
   }
 }
 
@@ -36,17 +36,12 @@
   font-family: sans-serif;
   width: fit-content;
   padding: 9px 33px;
+  float: right;
 }
 
 @media(max-width: 500px) {
   .heroSubheader {
     display: none;
-  }
-}
-
-@media(max-width: 1000px) {
-  .heroSubheader {
-    padding: 9px 20px;
   }
 }
 
@@ -56,8 +51,6 @@
   letter-spacing: 6px;
 }
 
-
-
 @media(max-width: 1000px) {
   .heroHeader {
     font-size: 58px;
@@ -65,12 +58,13 @@
 
   .heroSubheader {
     font-size: 19px;
+    padding: 9px 20px;
   }
 }
 
 @media(max-width: 380px) {
   .heroDetails {
-    left: 67%
+    left: 73%
   }
 }
 

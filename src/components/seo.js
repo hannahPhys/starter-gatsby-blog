@@ -25,7 +25,7 @@ const SEO = ({ title, description }) => {
 			}}
 			title={title}
 			defaultTitle={site.siteMetadata.title}
-			titleTemplate={`%s | ${site.siteMetadata.title}`}
+			titleTemplate={`%s | Weed Wahine`}
 		>
 			<meta charSet="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />

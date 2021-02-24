@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e1e1e1; 
+    background: #e1e1e1;
     font-size: 2em;
     overflow: hidden;
 
@@ -25,6 +25,11 @@
     text-align: center;
     font-size: 60px;
   }
+  @media(min-width: 1000px) {
+    .blogImageWrapper {
+      width: 25vw;
+    }
+  } 
 
   .wrapper {
     width: calc(96% - 10vmin);
@@ -56,6 +61,9 @@
     .blogImageWrapper {
       width: 25vw;
     }
+  } 
+  .blogText {
+    font-family: 'montserrat-light';
   }
 
 }
