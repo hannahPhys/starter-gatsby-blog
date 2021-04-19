@@ -1,21 +1,20 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 import get from 'lodash/get'
 import Layout from '../components/layout'
 import book from '../assets/cannabis-banner.jpg'
 import Img from 'gatsby-image'
 import styles from './blog-post.module.scss'
+import SEO from '../components/seo'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulBlogPost')
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }}>
-          <Helmet title={`${post.title} | ${siteTitle}`} />
+        <SEO title={`${post.title}`} description={post.description} />
+        <div style={{ background: '#fff' }} className={styles.blogPost}>
           <div className={styles.hero}>
             <img
               className={styles.heroImage}
@@ -24,7 +23,7 @@ class BlogPostTemplate extends React.Component {
             />
           </div>
           <div className={styles.wrapper}>
-            <h1 className="section-headline">{post.title}</h1>
+            <h1 className={styles.blogHeadline}>{post.title}</h1>
 
             <div className={styles.blogImageWrapper}>
               <Img
@@ -34,10 +33,10 @@ class BlogPostTemplate extends React.Component {
               />
             </div>
 
-            <p style={{ display: 'block', }} >
+            <p style={{ display: 'block' }} >
               {post.publishDate}
             </p>
-            <div
+            <div classname={styles.blogText}
               dangerouslySetInnerHTML={{
                 __html: post.body.childMarkdownRemark.html,
               }}

@@ -70,6 +70,8 @@ public
 .env.development
 .env.production
 package-lock.json
-package-lock.json
+package-lock.json 
 src/.DS_Store
-src/assets/.DS_Store
+src/assets/.DS_Store 
+.DS_Store  
+package-lock.json 

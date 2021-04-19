@@ -25,7 +25,7 @@ const SEO = ({ title, description }) => {
 			}}
 			title={title}
 			defaultTitle={site.siteMetadata.title}
-			titleTemplate={`%s | ${site.siteMetadata.title}`}
+			titleTemplate={`%s | Weed Wahine`}
 		>
 			<meta charSet="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,7 +35,15 @@ const SEO = ({ title, description }) => {
 			{/* OpenGraph tags */}
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={metaDescription} />
-
+			<script async src='https://www.googletagmanager.com/gtag/js?id=G-M2D5JZ09KT'></script>
+			<script>
+				{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-M2D5JZ09KT');
+        `}
+			</script>
 		</Helmet>
 	)
 }

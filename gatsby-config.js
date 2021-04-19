@@ -36,7 +36,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Wahine Weed",
+    title: "Weed Wahine",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [

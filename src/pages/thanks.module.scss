@@ -1,0 +1,16 @@
+@import '../components/primary.scss';
+ 
+    .header {
+        text-align: center;
+        font-family: 'BebasNeue';
+        color: $vividTangerine;
+        font-size: 50px;
+    }
+
+    p {
+        font-family: 'montserrat-light';
+    }
+
+    form {
+        margin: 50px auto 100px;
+    }

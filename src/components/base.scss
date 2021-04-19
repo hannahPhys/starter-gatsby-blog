@@ -1,7 +1,7 @@
 @import './primary.scss';
 
 body {
-  background: #eee;
+  background: white;
   color: #373F49;
   font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1em;
@@ -39,7 +39,7 @@ a {
 .article-list {
   display: grid;
   grid-gap: 5vmin;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style: none;
   margin: 0;
   padding: 0;
