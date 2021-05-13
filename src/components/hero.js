@@ -1,15 +1,14 @@
 import React from 'react'
-import bg from '../assets/bg.png'
 import styles from './hero.module.scss'
+import Img from 'gatsby-image'
 
-export default () => (
+export default ({ data }) => (
   <div className={styles.hero}>
     <div className={styles.heroWrapper}>
-      <img
+      <Img
         className={styles.heroImage}
-        src={bg}
-        alt="Hero"
-      ></img>
+        fluid={data.heroImage.fluid}
+      />
       <span className={styles.greenCross1}></span>
     </div>
     <div className={styles.heroDetails}>
